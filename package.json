@@ -1,0 +1,22 @@
+{
+  "name": "lodown-mcmillank30",
+  "version": "1.0.0",
+  "description": "my first library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "istanbul cover _mocha -- test/ -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm login"
+  },
+  "keywords": [
+    "npm",
+    "publish"
+  ],
+  "author": "",
+  "license": "ISC"
+}

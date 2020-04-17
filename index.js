@@ -2,6 +2,23 @@
 
 // YOU KNOW WHAT TO DO //
 
+
+/**
+ * identity:Takes a parameter and returns the value unchanged
+ * 
+ * @param: {Any Value} value: Can be any value.
+ * 
+ * @return {Any Value}: Will be the same value as input.
+ * 
+ */
+
+function identity(value){
+    
+    return value;
+}
+module.exports.identity = identity;
+
+
 /**
  * each: Designed to loop over a collection, Array or Object, and applies the 
  * action Function to each value in the collection.
